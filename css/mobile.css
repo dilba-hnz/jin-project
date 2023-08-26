@@ -1,0 +1,112 @@
+/*
+========================
+    header-countdown
+========================
+*/
+.rectangle-header{
+    margin-right: 10px;
+    width: 170px;
+    border-radius: 0 0 20px 20px;
+}
+
+
+
+/*
+========================
+    main-section
+========================
+*/
+.mobile-style-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/*
+===============
+    title
+===============
+*/
+.title-style{
+    text-align: center;
+}
+
+
+
+/*
+===============
+    image
+===============
+*/
+.img-style{
+    order: -1;
+    height: 180px;
+    width: 206px;
+    margin-top: 6rem;
+}
+
+
+
+/*
+===============
+    title
+===============
+*/
+.title-style h1{
+    font-size: 25px;
+    
+}
+
+.title-style span{
+    font-size: 20px;
+}
+
+.title-style p{
+    font-size: 15px;
+}
+
+
+
+/*
+=================
+    countdown
+=================
+*/
+.countdown-title p{
+    font-size: 0.85rem;     
+}
+
+.contact-form{
+    max-width: 20rem;   
+}
+
+
+
+/*
+===============
+    icons
+===============
+*/
+.icons div {
+    border-radius: 0 25px 25px 0;
+    height: 30px;
+    width: 35px; 
+    padding: 0;
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom: 80vh;
+    padding: 0;   
+}
+
+.icons div {
+    margin-bottom: 0.5rem;
+}

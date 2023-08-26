@@ -1,0 +1,99 @@
+/*
+========================
+    header-countdown
+========================
+*/
+.header p{
+    font-size: 0.65rem;
+}
+
+.header{
+    padding-right: 15px;
+}
+
+.rectangle-header{
+    height: 30px;
+    width: 130px;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+
+
+/*
+===============
+    title
+===============
+*/
+.title-style h1{
+    font-size: 1.5rem;
+}
+
+.title-style span{
+    font-size: 1.5rem;
+}
+
+.title-style p{
+    font-size: 1rem;
+}
+
+.title-style{
+    text-align: center;
+}
+
+
+
+/*
+===============
+    form
+===============
+*/
+.btn-style{
+    max-width: 17rem;
+}
+
+.contact-form{
+    max-width: 20rem;
+    margin-top: 3rem;
+}
+
+
+
+/*
+===============
+    image
+===============
+*/
+.img-style{
+    margin-top: 4rem;
+}
+
+.margin-style{
+    margin-top: 2rem;
+}
+
+
+
+/*
+=================
+    countdown
+=================
+*/
+.rectangle-footer{
+    height: 30px;
+    width: 130px;
+    border-radius: 20px 20px 0 0;
+}
+
+.countdown-title{
+    bottom: 16px;
+}
+
+.countdown{
+    font-size: 0.85rem;
+}
+
+.countdown-title p{
+    font-size: 0.75rem;     
+}
+

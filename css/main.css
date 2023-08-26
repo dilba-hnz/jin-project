@@ -1,0 +1,357 @@
+/* Reset some default styles*/
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*
+===============
+    fonts
+===============
+*/
+@font-face {
+    font-family: "dana-medium";
+    src: url("../fonts/فونت\ دانا\ \(@fonts_land\)\ .ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "dana-bold";
+    src: url("../fonts/dana-ultrabold•[@gang_editors]•.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "lalezar";
+    src: url("../fonts/Lalezar-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "vazir-digits";
+    src: url("../fonts/Vazir-Medium-FD-WOL.ttf") format("truetype");
+}
+
+
+
+/*
+===============
+    variables
+===============
+*/
+:root{
+    --background-dark-color: #E5A4A1;
+    --background-light-color: #F5E4E3;
+    --primary-color: #6E2440;
+    --white-color: #FFFFFF;
+    --form-color: #FFFFFF;
+    --button-color: #B86685;
+    --button-hover-color: #CE8BA4;
+    --icon-background-color: #8E969F;
+    --transition: all 0.3s linear;
+    --font-dana-med: "dana-medium";
+    --font-dana-bold: "dana-bold";
+    --font-lalezar: "lalezar";
+    --font-digits: "vazir-digits";
+}
+
+
+
+/*
+===============
+    body
+===============
+*/
+body{
+    background-image: linear-gradient(to top, var(--background-light-color), var(--background-dark-color));
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+
+/*
+========================
+    header-countdown
+========================
+*/
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header p{
+    font-size: 1rem;
+    font-family: var(--font-dana-med);
+    margin-bottom: 0;
+    user-select: none;
+}
+
+.rectangle-header{
+    height: 45px;
+    width: 200px;
+    background-color: var(--primary-color);
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+}
+
+
+
+/*
+===============
+    title
+===============
+*/
+.title-style h1{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-family: var(--font-lalezar);
+    user-select: none;
+}
+
+.title-style span{
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-family: var(--font-dana-bold);
+    user-select: none;
+}
+
+.title-style p{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-family: var(--font-dana-med);
+    user-select: none;
+}
+
+
+
+/*
+===============
+    form
+===============
+*/
+.contact-form{
+    background: var(--form-color);
+    Opacity: 67%;
+    max-width: 18rem;
+    width: 100%; 
+    border-radius: 20px;
+    
+}
+
+.form-group{
+    padding: 1rem 1.5rem;
+    max-width: 50rem; 
+}
+
+.form {
+    display: block;
+    width: 100%; 
+    margin-bottom: 1.25rem;
+    max-width: 15rem;
+    background: var(--form-color);
+    Opacity: 67%;
+    border: none;
+    border-bottom: 1px solid #8A8686;
+    outline: none; /* This removes the focus outline */
+    padding: 0.75rem 1rem;
+}
+
+.btn-style{
+    background: var(--button-color);
+    display: inline-block;
+    border-radius: 34px;
+    width: 100%;
+    max-width: 15rem;
+    font-family: var(--font-dana-med);
+    box-shadow: 0 0 1px 1px rgba(184, 102, 133, 0.5);
+
+}
+
+.btn-style:hover{
+    background: var(--button-hover-color);
+    transition: var(--transition);
+}
+
+
+
+/*
+===============
+    footer
+===============
+*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*
+=================
+    countdown
+=================
+*/
+.centeralize{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.rectangle-footer{
+    height: 45px;
+    width: 200px;
+    background-color: var(--white-color);
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.countdown{
+    color: var(--primary-color);
+    font-size: 1.35rem;
+    direction: ltr;
+    font-family: var(--font-dana-med);
+    margin-bottom: 0;
+    user-select: none;
+    font-family: var(--font-digits);
+}
+
+.countdown-title{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 30px;
+}
+
+.countdown-title p{
+    color: var(--primary-color);
+    font-family: var(--font-dana-med); 
+    font-size: 0.85rem;   
+}
+
+
+
+/*
+===============
+    icons
+===============
+*/
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:0.25rem 2rem;
+    display: flex;
+
+}
+
+.icons div {
+    background-color: var(--icon-background-color);
+    border-radius: 50%;
+    padding:0.25rem;
+    margin: 0.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.info-icon{
+    font-size: 1.25rem;
+    color: var(--white-color);
+}
+
+.share-icon{
+    font-size: 1.125rem;
+    color: var(--white-color);
+}
+
+.jin{
+    height: 30px;
+    width: 30px; 
+}
+
+
+
+/*
+=================
+    responsive
+=================
+*/
+@media screen and (min-width: 1400px) {
+    .icons div {
+        height: 55px;
+        width: 55px;
+    } 
+    .jin{
+        height: 55px;
+        width: 55px; 
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .icons div {
+        height: 45px;
+        width: 45px;
+    } 
+    .jin{
+        height: 45px;
+        width: 45px; 
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .icons div {
+        height: 35px;
+        width: 35px;
+    } 
+    .jin{
+        height: 35px;
+        width: 35px; 
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icons div {
+        height: 30px;
+        width: 30px;
+    } 
+    .jin{
+        height: 30px;
+        width: 30px; 
+    }
+}
